@@ -14,6 +14,7 @@ public class HelloController {
 
     @GetMapping("/say")
     public String Hello(){
+
         System.out.println("123");
         return "123" ;
     }
